@@ -1,0 +1,22 @@
+{
+  "name": "@oleksii-pavlov/keyboard",
+  "version": "0.1.0",
+  "description": "The JS/TS library to handle keyboard events",
+  "main": "./build/index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "utils",
+    "events",
+    "handling"
+  ],
+  "author": "Oleksii Pavlov <aleshapavlov9@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "typescript": "^5.1.3"
+  }
+}
