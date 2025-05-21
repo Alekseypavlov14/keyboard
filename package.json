@@ -1,6 +1,6 @@
 {
   "name": "@oleksii-pavlov/keyboard",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The JS/TS library to handle keyboard events",
   "main": "./build/index.js",
   "scripts": {
