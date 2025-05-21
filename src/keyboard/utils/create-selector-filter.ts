@@ -1,4 +1,4 @@
-import { resolveKeyFilter } from './resolve-key-filter'
+import { resolveKeyFilters } from './resolve-key-filters'
 import { parseSelector } from './parse-selector'
 import { Selector } from '../types/selector'
 import { Filter } from '../types/filter'
@@ -7,7 +7,7 @@ import { Filter } from '../types/filter'
 // based on filters for each key in combination
 export function createSelectorFilter(selector: Selector): Filter {
   const keys = parseSelector(selector)
-  const filters = keys.map(resolveKeyFilter)
+  const filters = resolveKeyFilters(keys)
 
   return (e: KeyboardEvent) => filters.every(filter => filter(e))
 }
