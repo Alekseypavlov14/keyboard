@@ -8,7 +8,7 @@ export * from './key.filters'
 export * from './utils/create-selector-filter'
 export * from './utils/parse-selector'
 export * from './utils/resolve-key-alias'
-export * from './utils/resolve-key-filter'
+export * from './utils/resolve-key-filters'
 
 // types
 export * from './types/selector'
